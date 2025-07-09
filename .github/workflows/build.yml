@@ -15,10 +15,10 @@ jobs:
       - name: Build Kernel
         uses: dabao1955/kernel_build_action@main
         with:
-          kernel-url: https://github.com/physwizz/A042-U-u6-u8
+          kernel-url: https://github.com/rsuntkOrgs/kernel_samsung_huaqin
           kernel-dir: samsung/a04e
           kernel-branch: main
-          config: a04e_defconfig
+          config: rsuntk-a04e_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
