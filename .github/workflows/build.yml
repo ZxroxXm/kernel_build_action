@@ -17,7 +17,7 @@ jobs:
         with:
           kernel-url: https://github.com/rsuntkOrgs/kernel_samsung_huaqin
           kernel-dir: samsung/a04e
-          kernel-branch: main
+          kernel-branch: android-4.19-stable
           config: rsuntk-a04e_defconfig
           arch: arm64
           aosp-gcc: true
