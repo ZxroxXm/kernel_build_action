@@ -15,9 +15,9 @@ jobs:
       - name: Build Kernel
         uses: dabao1955/kernel_build_action@main
         with:
-          kernel-url: https://github.com/samsung-mt6765-dev/kernel_samsung_a04e
+          kernel-url: https://github.com/physwizz/A042-U-u6-u8
           kernel-dir: samsung/a04e
-          kernel-branch: fifteen
+          kernel-branch: main
           config: a04e_defconfig
           arch: arm64
           aosp-gcc: true
