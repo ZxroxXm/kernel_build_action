@@ -15,8 +15,8 @@ jobs:
       - name: Build Kernel
         uses: dabao1955/kernel_build_action@main
         with:
-          kernel-url: https://github.com/samsung-mt6765-dev
-          kernel-dir: msm-4.19
+          kernel-url: https://github.com/samsung-mt6765-dev/kernel_samsung_a04e
+          kernel-dir: samsung/a04e
           kernel-branch: fifteen
           config: a04e_defconfig
           arch: arm64
