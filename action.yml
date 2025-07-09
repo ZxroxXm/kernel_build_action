@@ -6,7 +6,7 @@ branding:
   color: 'blue'
 
 inputs:
-  kernel-url:
+  kernel-url: https://github.com/samsung-mt6765-dev/kernel_samsung_a04e
     description: 'Kernel Source Url'
     required: true
   depth:
@@ -30,14 +30,14 @@ inputs:
   vendor-branch:
     description: 'Branch name for vendor kernel source'
     required: false
-  config:
+  config: a04e_defconfig
     description: 'configuration for building android kernel'
     required: true
     default: defconfig
-  arch:
+  arch: arm64
     required: true
     default: arm64
-  android-version:
+  android-version: 14
     description: 'Android version.'
     required: false
     default: ""
